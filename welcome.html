@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        .container {
+            width: 100vw;
+            height: 100vh;
+            flex-direction: column;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        h1 {
+            color: aquamarine;
+        }
+
+        .container > * {
+            margin-bottom: 2vh;
+        }
+
+        .tabbed {
+            padding-right: 5vw;
+        }
+
+        hr {
+            background-color: white;
+            width: 50vw;
+        }
+
+    </style>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Welcome to the NetElixir AI Game</h1>
+        <p>You are a blue box living your peaceful life</p>
+        <p>Then the purple boxes attacked</p>
+        <p>The purple boxes have the numbers</p>
+        <p>And they evolve over time through natural selection to find the best colors, shapes, speeds, and spawn locations to kill you</p> 
+        <p>But you have better technology than them and can utilize your neural networks to help you fight them</p>
+        <p>You can train them based on your actions so they can automate basic motions</p>
+        <p>Good Luck!</p>
+        <p>NOTE: when training a model to shoot hold down the shoot key in the area you want it to shoot</p>
+        <p>NOTE: in training mode (in configurations) the games you play will not count towards your score. Use this to train a neural network or to practice.</p>
+        <p></p>
+        <a href="./game.html" class='btn btn-success'>Start Game</a>    
+        <a href="./controls.html" class='btn btn-info'>Game Controls</a>       
+        <a href="./config.html" class="btn btn-primary">Game Configurations</a> 
+    </div>
+</body>
+</html>
